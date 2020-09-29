@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import discord
 import json
-import time
 import asyncio
 from discord.ext import commands
 
