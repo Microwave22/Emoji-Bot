@@ -47,6 +47,8 @@ def listEmojis():
 
   for key in emojiDict:
     emojiString += key+"\n"
+    
+  emojiString += "There are " + (str(len(emojiDict))) + "Emojis \n"
 
   print(emojiString)
 
